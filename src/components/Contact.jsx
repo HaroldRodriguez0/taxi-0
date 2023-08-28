@@ -9,7 +9,7 @@ import { SgvFacebook, SgvInstagram, SgvTwitter, SgvYoutube } from "../assets/svg
 export const Contact = () => {
   const form = useRef();
 
-  const { language } = useContext(LanguageContext);
+  const { language, refContact } = useContext(LanguageContext);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,16 +32,16 @@ export const Contact = () => {
   };
 
   return (
-    <section className="bg-dark pt-4">
+    <section ref={refContact} className="bg-dark pt-4">
       <Container className="flex-column footer-text-color container">
         <Row className="w-100">
           <Col md={6}>
             <h2 className="footer-title py-2">
               {language ? "Contact details" : "Detalles de contacto"}
             </h2>
-            <h5 className="m-0">General Manager</h5>
+            <h5 className="m-0">{language ? "General Manager" : "General Manager"}</h5>
             <h2 className="mb-3 footer-info-color">Oriel ... ...</h2>
-            <h5 className="m-0">Phone number</h5>
+            <h5 className="m-0">{language ? "Phone number" : "Phone number"}</h5>
             <a href="tel:5353760295" className="mb-5 footer-info-color">
               +53 53760295
             </a>

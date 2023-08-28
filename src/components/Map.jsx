@@ -4,6 +4,7 @@ import { ModalMAp } from "./ModalMap";
 
 export const Map = () => {
 
+  const isNotMobile = window.innerWidth > 600; 
   const { language, refSitie } = useContext(LanguageContext);
   const [sitie, setSitie] = useState();
   const [show, setShow] = useState(false);
@@ -35,7 +36,8 @@ export const Map = () => {
           {
           sities.map((sities, i) => (
             <img
-              onClick={() => {handleShow(); setSitie(i);}}
+              onMouseEnter={() => {isNotMobile && handleShow(); setSitie(i);} }
+              onClick={() => { handleShow(); setSitie(i);} }
               key={i}
               title={sities}
 

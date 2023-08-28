@@ -3,8 +3,11 @@ import Carousel from "react-bootstrap/Carousel";
 import { LanguageContext } from "./LanguageContext";
 
 export const Home = () => {
-  const { language, refContact } = useContext(LanguageContext);
 
+  const { language, refContact } = useContext(LanguageContext);
+  const scrollRef = () => {
+    refContact.current.scrollIntoView({ behavior: 'smooth'});
+  }
   return (
     <section>
       <div className="d-flex justify-content-center">
@@ -20,8 +23,8 @@ export const Home = () => {
               : "el mejor modo de conocer la isla"}
           </p>
         </div>
-        <button className="btn btn-lg btn-warning position position-b">
-          <a ref={refContact}>{language ? "Contact" : "Contáctanos"}</a>
+        <button onClick={() => scrollRef()} className="btn btn-lg fs-3 btn-warning position position-b">
+          {language ? "Contact" : "Contáctanos"}
         </button>
       </div>
 
