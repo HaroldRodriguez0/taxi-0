@@ -1,0 +1,520 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+  font-family: "Merriweather", sans-serif ;
+}
+ 
+
+
+/* ************** Custom Properties ************** */
+:root {
+  --first-color: rgb(250, 217, 3);
+  --first-color-black: rgba(255,186,5,.8);
+  --first-color-white: rgb(255, 218, 118);
+}
+
+/* GLOBAL */
+
+.h-30vh{
+  height: 30vh !important;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.ul-fs li{
+  font-size: .9rem;
+}
+
+.fs-w{
+  font-weight: bold;
+}
+
+.h-100vh{
+  height: 93vh;
+}
+
+.bg-t{
+  background: var(--first-color-black);
+  width: 100%;
+  height: 23vh;
+}
+
+.bg-w{
+  background: white;
+  width: 100%;
+  height: 54vh;
+}
+
+.h-w{
+  background-image: url('../public/icons/quote-taxi2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 54vh;
+}
+
+.bg-b{
+  background: var(--first-color-black);
+  width: 100%;
+  height: 15vh;
+}
+
+
+
+/* whatsapp */
+
+.whatsapp{
+  z-index: 2000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: all .7s ease-in-out;
+}
+
+.svgWhatsapp:hover{
+  fill: greenyellow;
+  transition: all .7s ease-in-out;
+}
+
+.svgWhatsapp{
+  width: 40px;
+  height: auto;
+  fill: var(--first-color-white);
+}
+
+
+
+/* NAVBAR */
+
+.navbar-bg-logo{
+  background: linear-gradient(270deg,#4a3d0a 5%, #2f2505 50%, #4a3d0a 100%) 50%;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  transition: color .5s ease-out;
+  color: var(--first-color);
+  
+}
+
+.nav-link.active {
+  transition: color .5s ease-out;
+  color: var(--first-color) !important;
+}
+
+.icon-lenguaje{
+  width: 60px;
+}
+
+.icon-lenguaje:hover{
+  cursor: pointer;
+}
+
+.offcanvas{
+  max-width: 230px !important; 
+  height: 375px !important;
+  border-radius: 1rem;
+}
+
+
+/* Home */
+
+.home-bg-article{
+  background-color: rgba(0, 0, 0, 0.581);
+  max-width: 80%;
+}
+
+.position{
+  position: absolute;
+  z-index: 1000;          
+}
+
+.position-h1{
+  top: 20%;
+}
+
+.color-h1{
+  font-weight: bold;
+  color: var(--first-color-white);
+}
+
+.position-b{
+  bottom: 10%;
+}
+
+.carousel-item {
+  transition: transform 1.5s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 1.5s;
+}
+
+
+/* SERVICE */
+
+.service-info{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
+.modalIcon{
+  border-radius: 1rem;
+  background-color: var(--first-color-white);
+  width: 70px;
+  height: 70px;
+  margin-right: 1rem;
+}
+
+.service-icon{
+  width: 50px;
+  height: 50px;
+}
+
+.hover-service{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hover-service img{
+  border-radius: 1rem;
+  border: solid 1px var(--first-color-white);
+  transition: all 1s ease-in-out;
+}
+
+
+.hover-service img:hover{
+  cursor: pointer;
+  background-color: var(--first-color-white);
+}
+
+.img-fixe{
+  background-image: url('../../public/pexels-life-of-pix-8247\ \(2\)sm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-size{
+  width: 80px;
+  height: 80px;
+}
+
+.service-transition{
+  transition: all .5s ease-in-out;
+}
+
+/* OurWork */
+
+.ourWork-body{
+  font-size: .9rem;
+  padding-bottom: 1rem;
+}
+
+.ourWork-ul li::before {
+  content: "- ";
+}
+
+.max-width-OurWork{
+  max-width: 550px;
+}
+
+.background-OurWork{
+  background-color: rgb(40, 41, 43);
+  color: aliceblue;
+}
+
+.border-xy{
+  border: solid 1px var(--first-color);
+}
+
+.border-b{
+  border-bottom: solid 1px var(--first-color);
+}
+
+.ourWork-icon{
+  background-color: var(--first-color-white);
+  width: 50px;
+}
+
+.ourWork-img{
+  width: 100%;
+  height: 40vh;
+}
+
+.title-color{
+  color: var(--first-color-white);
+}
+
+
+/* OurCars */
+
+.max-w-ourCars{
+  min-width: 330px;
+}
+
+
+/* Comments */
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+.carousel-vh{
+  height: 32vh;
+}
+
+.comments-bg{
+  background-image: url('../icons/quote-taxi2.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+/* MapCuba */
+
+.p-relative{
+  position: relative;
+}
+
+.bg-mapa{
+  background-color: var(--first-color-black);
+  padding: 1.6rem 0 1rem 0;
+}
+
+.mapCuba-size{
+  position: absolute;
+  cursor: pointer;
+  width: 3.5%;
+  height: 12%;
+}
+
+.Viñales{
+  top: 28%;
+  left: 18%;
+}
+
+.Las_Terrazas{
+  top: 15%;
+  left: 32%;
+}
+
+.Soroa{
+  top: 20%;
+  left: 29%;
+}
+
+.Habana{
+  top: 2%;
+  left: 40%;
+}
+
+.Matanzas{
+  top: 5%;
+  left: 53.1%;
+}
+
+.Cienaga_de_Zapata{
+  top: 40%;
+  left: 55%;
+}
+
+.Varadero{
+  top: -4%;
+  left: 58%;
+}
+
+.Cienfuegos{
+  top: 46%;
+  left: 70%;
+}
+
+.Trinidad{
+  top: 64%;
+  left: 77.3%;
+}
+
+.Santa_Clara{
+  top: 33%;
+  left: 77.3%;
+}
+
+
+/* Footer */
+
+.footer-text-color{
+  color: aliceblue;
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.footer-info-color{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  color: var(--first-color-white);
+}
+
+.svg{
+  fill: var(--first-color);
+  width: 30px;
+  height: auto;
+}
+
+.svg:hover{
+  fill: yellow;
+  transition: all .5s ease-in-out;
+}
+
+@media (min-width: 576px) { 
+  
+  .img-fixe{
+    background-image: url('../../public/pexels-life-of-pix-8247lg.jpg');
+  }
+
+  .img-size{
+    width: 100px;
+    height: 100px;
+  }
+
+  .comments-bg{
+    background-position: bottom;
+  }
+
+ }
+
+@media (min-width: 768px) {
+
+  .service-icon{
+    width: 90px;
+    height: 90px;
+  }
+
+  .img-size{
+    width: 140px;
+    height: 140px;
+  }
+
+  .hover-service{
+    margin-top: 4rem;
+  }
+
+  .offcanvas{
+    max-width: 600px !important; 
+  }
+
+  .icon-lenguaje{
+    width: 40px;
+    padding: .4rem 0 0 .8rem;
+  }
+
+  .mapCuba-size{
+    width: 2.5%;
+    height: 11%;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  
+  .title-color{
+    font-size: 1.3rem;
+  }
+
+  .max-width-OurWork{
+    max-width: 95%;
+  }
+
+  .ourWork-img{
+    height: 100%;
+  }
+
+  .border-b{
+    border-bottom: none;
+  }
+
+  .border-a1{
+    border-bottom: solid 1px var(--first-color);
+    border-right: solid 1px var(--first-color);
+  }
+
+  .border-a2{
+    border-bottom: solid 1px var(--first-color) ;
+  }
+
+  .border-a3{
+    border-right: solid 1px var(--first-color) ;
+  }
+
+  .max-w-ourCars{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titleCars{
+    font-size: 1.8rem;
+  }
+
+  .nameCars{
+    font-size: 3rem;
+  }
+
+  .ul-fs li{
+    font-size: 1.1rem;
+  }
+
+  .carousel-vh{
+    padding-top: 2rem;
+  }
+
+
+}
+
+
+@media (min-width: 1200px) { 
+
+  .ourWork-body{
+    font-size: 1rem;
+  }
+
+  .ourWork-icon{
+    width: 70px;
+  }
+
+  .title-color{
+    padding: 1rem 0 1rem 0;
+  }
+  
+  .carousel-vh p{
+    font-size: 1.1rem;
+  }
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+  .title-color{
+    font-size: 1.5rem;
+  }
+
+ }
