@@ -28,7 +28,7 @@ export const NavBar = () => {
             className='navbar-bg-logo p-1 ps-2 rounded'
             width="220"
             height="45"
-            src="../../public/icons/logo.png"
+            src="../icons/logo.png"
             alt="logo" rounded />
        </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} onClick={handleShow} />
@@ -47,7 +47,7 @@ export const NavBar = () => {
                  className='navbar-bg-logo p-1 ps-2 rounded'
                  width="auto"
                  height="45"
-                 src="../../public/icons/logo.png"
+                 src="../icons/logo.png"
                  alt="logo" rounded />
              
             </Offcanvas.Title>
@@ -59,7 +59,7 @@ export const NavBar = () => {
               <NavLink onClick={() => scrollRef(refSitie) } >{language ?'Sitie' :'Sitios'}</NavLink>
               <NavLink onClick={() => scrollRef(refContact) } >{language ?'Contact' :'Contacto'}</NavLink>
               <a onClick={() => setLanguage( !language )} className='icon-lenguaje' >
-                <img className='img-fluid' src={language ?'../../public/icons/estados-unidos.png' :'../../public/icons/espana.png'} alt="" />
+                <img className='img-fluid' src={language ?'../icons/estados-unidos.png' :'../icons/espana.png'} alt="" />
               </a>
             </Nav>
           </Offcanvas.Body>

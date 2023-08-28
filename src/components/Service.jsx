@@ -54,7 +54,7 @@ export const Service = () => {
                 <img
                   onClick={() => {handleShow(); setService(2);}}
                   className="img-size"
-                  src="../../public/icons/traslados.png"
+                  src="../icons/traslados.png"
                   alt="recogida"
                 />
                 <h5 className="pt-2">{language ? "transfers" : "traslados"}</h5>
@@ -63,7 +63,7 @@ export const Service = () => {
                 <img
                   onClick={() => {handleShow(); setService(3);}}
                   className="img-size"
-                  src="../../public/icons/circuitos.png"
+                  src="../icons/circuitos.png"
                   alt="recogida"
                 />
                 <h5 className="pt-2">{language ? "circuits" : "circuitos"}</h5>
@@ -72,7 +72,7 @@ export const Service = () => {
                 <img
                   onClick={() => {handleShow(); setService(4);}}
                   className="img-size"
-                  src="../../public/icons/maleta.png"
+                  src="../icons/maleta.png"
                   alt="recogida"
                 />
                 <h5 className="pt-2">{language ? "excursion" : "excursión"}</h5>

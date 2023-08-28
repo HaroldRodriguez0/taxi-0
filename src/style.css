@@ -201,7 +201,7 @@ a{
 }
 
 .img-fixe{
-  background-image: url('../../public/pexels-life-of-pix-8247\ \(2\)sm.jpg');
+  background-image: url('../pexels-life-of-pix-8247\ \(2\)sm.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -387,7 +387,7 @@ a{
 @media (min-width: 576px) { 
   
   .img-fixe{
-    background-image: url('../../public/pexels-life-of-pix-8247lg.jpg');
+    background-image: url('../pexels-life-of-pix-8247lg.jpg');
   }
 
   .img-size{

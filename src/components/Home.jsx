@@ -28,37 +28,37 @@ export const Home = () => {
       <Carousel controls={false} fade>
         <Carousel.Item>
           <img
-            src="../../public/fotis-fotopoulos-7_r85l4eht8-unsplash (1)sm (1).jpg"
+            src="../fotis-fotopoulos-7_r85l4eht8-unsplash (1)sm (1).jpg"
             alt="algo"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../../public/fotis-fotopoulos-7_r85l4eht8-unsplash (2)lg.jpg"
+            src="../fotis-fotopoulos-7_r85l4eht8-unsplash (2)lg.jpg"
             alt="algo"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="../../public/pexels-life-of-pix-8247 (2)sm.jpg"
+            src="../pexels-life-of-pix-8247 (2)sm.jpg"
             alt="algo"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../../public/pexels-life-of-pix-8247lg.jpg"
+            src="../pexels-life-of-pix-8247lg.jpg"
             alt="algo"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="../../public/taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
+            src="../taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
             alt="algo"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../../public taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
-            alt="algo"
+            src="../taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
+            alt="gacelas"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
