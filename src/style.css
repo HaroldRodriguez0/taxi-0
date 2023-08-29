@@ -78,15 +78,15 @@ a{
   transition: all .7s ease-in-out;
 }
 
-.svgWhatsapp:hover{
+/* .svgWhatsapp:hover{
   fill: greenyellow;
   transition: all .7s ease-in-out;
-}
+} */
 
 .svgWhatsapp{
   width: 40px;
   height: auto;
-  fill: var(--first-color-white);
+  fill: greenyellow;
 }
 
 

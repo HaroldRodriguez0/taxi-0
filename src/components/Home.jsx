@@ -9,13 +9,13 @@ export const Home = () => {
     refContact.current.scrollIntoView({ behavior: 'smooth'});
   }
   return (
-    <section>
+    <section className="mt-5">
       <div className="d-flex justify-content-center">
         <div className="rounded text-center text-white position-h1 home-bg-article position">
           <h1 className="color-h1 m-0 p-3 fs-2 ">
             {language
-              ? "Taxi from Varadero to Cuba"
-              : "Taxi desde Varadero hacia Cuba"}
+              ? "Get your dreams off the pillow and roll them"
+              : "Saca tus sueños de la almohada y ponlos a rodar"}
           </h1>
           <p>
             {language

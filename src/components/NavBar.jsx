@@ -21,7 +21,7 @@ export const NavBar = () => {
   }
 
   return (
-    <Navbar expand='md' bg="dark" data-bs-theme="dark">
+    <Navbar fixed="top" expand='md' bg="dark" data-bs-theme="dark">
       <Container fluid>
         <Navbar.Brand> 
           <Image  
