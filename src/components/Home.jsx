@@ -29,6 +29,18 @@ export const Home = () => {
       </div>
 
       <Carousel controls={false} fade>
+      <Carousel.Item>
+          <img
+            src="../frente-carro.jpg"
+            alt="carro"
+            className="d-md-none h-100vh w-100"
+          />
+          <img
+            src="../frente-carro.jpg"
+            alt="carro"
+            className="d-none d-md-block h-100vh w-100"
+          />
+        </Carousel.Item>
         <Carousel.Item>
           <img
             src="../fotis-fotopoulos-7_r85l4eht8-unsplash (1)sm (1).jpg"
@@ -50,18 +62,6 @@ export const Home = () => {
           <img
             src="../pexels-life-of-pix-8247lg.jpg"
             alt="algo"
-            className="d-none d-md-block h-100vh w-100"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            src="../taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
-            alt="algo"
-            className="d-md-none h-100vh w-100"
-          />
-          <img
-            src="../taxi-gacelas-jorge-ricardo-2023-2-1024x683.jpg"
-            alt="gacelas"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
