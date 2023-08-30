@@ -1,20 +1,27 @@
 import { useContext, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { LanguageContext } from "./LanguageContext";
 import { ModalService } from "./ModalService";
 
 export const Service = () => {
-
+  AOS.init();
+  
   const { language, refService } = useContext(LanguageContext);
   const [service, setService] = useState();
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+
   return (
     <section ref={refService} className="h-100 w-100">
       <div className="img-fixe">
         <article className="bg-t text-center d-flex align-items-center justify-content-center">
-          <div>
+          <div 
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-once="true">
             <h3>{language ? "OUR COMPANY" : "NUESTRA EMPRESA"}</h3>
             <p className="mb-1">
               {language
@@ -81,9 +88,14 @@ export const Service = () => {
           </div>
         </article>
         <article className="bg-t text-center d-flex align-items-center justify-content-center">
-          <div>
+          <div 
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-once="true">
             <h3 className>{language ? "PERSONALIZED PLAN" : "PLAN PERSONALIZADO"}</h3>
-            <a href="tel:5353760295" className="service-info">+53 53760295</a>
+            <div className="service-number-hvr">
+              <a href="tel:5353760295" className="service-info ">+53 53760295</a>
+            </div>
             <p className="mb-1">{language ? "We focus on customer needs" : "Nos enfocamos en las necesidades del cliente."}</p>
           </div>
         </article>

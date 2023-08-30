@@ -1,7 +1,10 @@
 import { useContext } from "react";
 import { LanguageContext } from "./LanguageContext";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const OurCars = () => {
+  AOS.init();
   const { language, refOurCar } = useContext(LanguageContext);
   {
     language ? "" : "Lugares de interés";
@@ -15,6 +18,9 @@ export const OurCars = () => {
       <div className="col-9 col-md-6 py-4 border max-w-ourCars">
         <h2 className="nameCars">{language ? "Name Car" : "Name Car"}</h2>
         <img
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-once="true"
           className="img-fluid imgOurCars"
           src="../taximodelo2.png"
           alt="image-taxi"
@@ -34,6 +40,9 @@ export const OurCars = () => {
       <div className="col-9 col-md-6 py-4 border max-w-ourCars">
         <h2 className="nameCars">{language ? "Name Car" : "Name Car"}</h2>
         <img
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-once="true"
           className="img-fluid imgOurCars"
           src="../taximodelo1.png"
           alt="image-taxi"

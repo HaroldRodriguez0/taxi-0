@@ -23,7 +23,7 @@ export const Home = () => {
               : "el mejor modo de conocer la isla"}
           </p>
         </div>
-        <button onClick={() => scrollRef()} className="btn btn-lg fs-3 btn-warning position position-b">
+        <button onClick={() => scrollRef()} className="btn btn-lg fs-3 btn-warning position position-b home-buton-hvr">
           {language ? "Contact" : "Contáctanos"}
         </button>
       </div>

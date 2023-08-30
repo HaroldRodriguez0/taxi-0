@@ -42,9 +42,12 @@ export const Contact = () => {
             <h5 className="m-0">{language ? "General Manager" : "General Manager"}</h5>
             <h2 className="mb-3 footer-info-color">Oriel ... ...</h2>
             <h5 className="m-0">{language ? "Phone number" : "Phone number"}</h5>
-            <a href="tel:5353760295" className="mb-5 footer-info-color">
+            <div className="service-number-hvr">
+              <a href="tel:5353760295" className="mb-5 footer-info-color">
               +53 53760295
             </a>
+            </div>
+            
           </Col>
           <Col md={6} className="pt-4">
             <form ref={form} onSubmit={sendEmail} className="px-auto">

@@ -76,6 +76,9 @@ a{
   right: 20px;
   cursor: pointer;
   transition: all .7s ease-in-out;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 /* .svgWhatsapp:hover{
@@ -129,6 +132,7 @@ a{
 
 /* Home */
 
+
 .home-bg-article{
   background-color: rgba(0, 0, 0, 0.581);
   max-width: 80%;
@@ -141,6 +145,8 @@ a{
 
 .position-h1{
   top: 20%;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
 }
 
 .color-h1{
@@ -150,6 +156,12 @@ a{
 
 .position-b{
   bottom: 10%;
+}
+
+.home-buton-hvr{
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: 4;
 }
 
 .carousel-item {
@@ -163,6 +175,12 @@ a{
 
 
 /* SERVICE */
+
+.service-number-hvr{
+  animation-name: headShake;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
 
 .service-info{
   text-decoration: none;
@@ -363,7 +381,7 @@ a{
 
 .footer-title{
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .footer-info-color{
@@ -518,3 +536,55 @@ a{
   }
 
  }
+
+
+ @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes headShake {
+  0% {
+    transform: translateX(0);
+  }
+
+  6.5% {
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+
+  18.5% {
+    transform: translateX(5px) rotateY(7deg);
+  }
+
+  31.5% {
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+
+  43.5% {
+    transform: translateX(2px) rotateY(3deg);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+}
+
