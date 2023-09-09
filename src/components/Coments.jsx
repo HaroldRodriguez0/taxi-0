@@ -11,7 +11,7 @@ export const Coments = () => {
         <img
           className="img-fluid  rounded "
           src="../comentario.jpg"
-          alt
+          alt='comentario'
         ></img>
       </div>
       <div className="col-md-6 comments-bg">

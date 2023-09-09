@@ -92,7 +92,7 @@ export const Service = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-once="true">
-            <h3 className>{language ? "PERSONALIZED PLAN" : "PLAN PERSONALIZADO"}</h3>
+            <h3 >{language ? "PERSONALIZED PLAN" : "PLAN PERSONALIZADO"}</h3>
             <div className="service-number-hvr">
               <a href="tel:5353760295" className="service-info ">+53 53760295</a>
             </div>
