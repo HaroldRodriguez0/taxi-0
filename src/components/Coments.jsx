@@ -10,7 +10,7 @@ export const Coments = () => {
       <div className="col-md-6 d-flex justify-content-center">
         <img
           className="img-fluid  rounded "
-          src="../pexels-tim-samuel-5835362 (2)sm.jpg"
+          src="../comentario.jpg"
           alt
         ></img>
       </div>

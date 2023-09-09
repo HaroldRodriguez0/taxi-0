@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "./LanguageContext";
+import Carousel from "react-bootstrap/Carousel";
 
 export const OurWork = () => {
   const { language } = useContext(LanguageContext);
@@ -60,11 +61,43 @@ export const OurWork = () => {
             </div>
           </div>
           <div className="col-lg-6 p-0">
-            <img
-              className="img-fluid ourWork-img"
-              src="../habana.png"
-              alt="habana"
-            />
+            <Carousel controls={false} fade>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img ourWork-img-habana"
+                  src="../habana0.jpg"
+                  alt="habana"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img ourWork-img-habana"
+                  src="../habana1.jpg"
+                  alt="habana"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img ourWork-img-habana"
+                  src="../habana2.jpg"
+                  alt="habana"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img ourWork-img-habana"
+                  src="../habana3.jpg"
+                  alt="habana"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img ourWork-img-habana"
+                  src="../habana4.jpg"
+                  alt="habana"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </article>
         <article className="row col-lg-6 m-0 p-0 border-b border-a1">
@@ -87,11 +120,43 @@ export const OurWork = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xl-7 p-0">
-            <img
-              className="img-fluid ourWork-img"
-              src="../matanzas.jpg"
-              alt="matanzas"
-            />
+          <Carousel controls={false} fade>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../matanzas1.jpg"
+                  alt="matanzas"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../matanzas2.jpg"
+                  alt="matanzas5"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../matanzas3.jpg"
+                  alt="matanzas5"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../matanzas4.jpg"
+                  alt="matanzas5"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../matanzas5.jpg"
+                  alt="matanzas5"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </article>
         <article className="row col-lg-6 m-0 p-0 border-b border-a2">
@@ -114,11 +179,36 @@ export const OurWork = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xl-7 p-0">
-            <img
-              className="img-fluid ourWork-img"
-              src="../Zienaga.jpg"
-              alt="Zienaga"
-            />
+          <Carousel controls={false} fade>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../Zienaga.jpg"
+                  alt="Zienaga"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../zapata1.jpeg"
+                  alt="Zienaga"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../zapata2.jpg"
+                  alt="Zienaga"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../zapata3.jpg"
+                  alt="Zienaga"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </article>
         <article className="row col-lg-6 m-0 p-0 border-b border-a3">
@@ -135,16 +225,38 @@ export const OurWork = () => {
                 <li>{language ? "" : "Mirador los jazmines"}</li>
                 <li>{language ? "" : "Mural de la prehistoria"}</li>
                 <li>{language ? "" : "Cueva del indio"}</li>
-                <li>{language ? "" : "Casa de campesino donde ven como tuerce el tabaco"}</li>
+                <li>
+                  {language
+                    ? ""
+                    : "Casa de campesino donde ven como tuerce el tabaco"}
+                </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-6 col-xl-7 p-0">
-            <img
-              className="img-fluid ourWork-img"
-              src="../vinales.jpg"
-              alt="vinales"
-            />
+          <Carousel controls={false} fade>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../vinales1.jpg"
+                  alt="vinales"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../vinales2.jpg"
+                  alt="vinales"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../vinales3.jpg"
+                  alt="vinales"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </article>
         <article className="row col-lg-6 m-0 p-0 ">
@@ -178,11 +290,72 @@ export const OurWork = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xl-7 p-0">
-            <img
-              className="img-fluid ourWork-img"
-              src="../cienfuegos.jpg"
-              alt="cienfuegos"
-            />
+          <Carousel controls={false} fade>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad0.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad1.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad2.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad3.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad4.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad5.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad6.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad7.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="img-fluid ourWork-img"
+                  src="../ciudad8.jpg"
+                  alt="ciudad"
+                />
+              </Carousel.Item>
+
+            </Carousel>
           </div>
         </article>
       </div>

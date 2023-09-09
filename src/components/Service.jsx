@@ -35,7 +35,7 @@ export const Service = () => {
             <div className="w-100 pt-3 d-flex justify-content-around">
               <img
                 className="service-icon"
-                src="../icons/ubucacion-taxi-icon.png"
+                src="../icons/banderaCuba.png"
                 alt="parada"
               />
               <h2 className="display-2">
@@ -43,7 +43,7 @@ export const Service = () => {
               </h2>
               <img
                 className="service-icon"
-                src="../icons/taxi-icon.png"
+                src="../icons/huellaCuba.png"
                 alt="parada"
               />
             </div>

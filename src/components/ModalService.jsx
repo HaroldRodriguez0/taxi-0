@@ -37,20 +37,6 @@ export const ModalService = ({ show, handleClose, service }) => {
     }
   };
 
-  const img = (service) => {
-    switch (service) {
-      case 1:  
-        return window.innerWidth < 500 ?"../recogida-sm.jpg" :"../recogida-lg.jpg";
-      case 2:
-        return "../default-image.jpg";
-      case 3:
-        return "../default-image.jpg";
-      case 4:
-        return "../default-image.jpg";
-      default:
-        break;
-    }
-  };
 
   const titleBody = (service) => {
     switch (service) {
@@ -108,11 +94,6 @@ export const ModalService = ({ show, handleClose, service }) => {
         <Modal.Body>
           <div className="row">
             <div className="col-lg-6 text-center">
-              <img
-                className="img-fluid"
-                src={ img( service )}
-                alt="service-img"
-              ></img>
             </div>
             <div className="col-lg-6">
               <h3 className="pt-2">{ titleBody( service )}</h3>

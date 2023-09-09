@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Modal from "react-bootstrap/Modal";
 import { LanguageContext } from "./LanguageContext";
-import Carousel from "react-bootstrap/Carousel";
+
 
 // eslint-disable-next-line react/prop-types
 export const ModalMAp = ({ show, handleClose, sitie }) => {
@@ -150,27 +150,11 @@ export const ModalMAp = ({ show, handleClose, sitie }) => {
         <Modal.Body>
           <div className="row">
             <div className="col-lg-6 text-center">
-              <Carousel controls={false} fade>
-                <Carousel.Item>
-                  <img
-                    className="img-fluid w-100 h-30vh"
-                    src={img1(sitie)}
-                    alt="sitie-img"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="../default-image.jpg"
-                    className="img-fluid w-100 h-30vh"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="../default-image.jpg"
-                    className="img-fluid w-100 h-30vh"
-                  />
-                </Carousel.Item>
-              </Carousel>
+              <img
+                className="img-fluid w-100 h-30vh"
+                src={img1(sitie)}
+                alt="sitie-img"
+              />
             </div>
             <div className="col-lg-6">
               <h3 className="pt-2">{titleBody(sitie)}</h3>

@@ -31,36 +31,36 @@ export const Home = () => {
       <Carousel controls={false} fade>
       <Carousel.Item>
           <img
-            src="../frente-carro.jpg"
+            src="../principal1-sm.jpg"
             alt="carro"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../frente-carro.jpg"
+            src="../principal6-lg.jpg"
             alt="carro"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="../fotis-fotopoulos-7_r85l4eht8-unsplash (1)sm (1).jpg"
+            src="../principal2-sm.jpg"
             alt="algo"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../fotis-fotopoulos-7_r85l4eht8-unsplash (2)lg.jpg"
+            src="../principal2-lg.jpg"
             alt="algo"
             className="d-none d-md-block h-100vh w-100"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="../pexels-life-of-pix-8247 (2)sm.jpg"
+            src="../principal4-sm.jpg"
             alt="algo"
             className="d-md-none h-100vh w-100"
           />
           <img
-            src="../pexels-life-of-pix-8247lg.jpg"
+            src="../principal7-lg.jpg"
             alt="algo"
             className="d-none d-md-block h-100vh w-100"
           />

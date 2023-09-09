@@ -22,7 +22,7 @@ export const OurCars = () => {
           data-aos-duration="2000"
           data-aos-once="true"
           className="img-fluid imgOurCars"
-          src="../taximodelo2.png"
+          src="../carroHorizontal1.png"
           alt="image-taxi"
         />
         <h5 className="titleCars">
@@ -44,7 +44,7 @@ export const OurCars = () => {
           data-aos-duration="2000"
           data-aos-once="true"
           className="img-fluid imgOurCars"
-          src="../taximodelo1.png"
+          src="../carroHorizontal2.png"
           alt="image-taxi"
         />
         <h5 className="titleCars">
