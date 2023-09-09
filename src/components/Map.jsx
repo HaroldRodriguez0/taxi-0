@@ -27,10 +27,10 @@ export const Map = () => {
     <section ref={refSitie} className="bg-mapa d-relative">
       <div className="container text-center">
         <h2 className="pb-4">{language ? "Sities" : "Sitios"}</h2>
-        <div className="p-relative">
-          <img className="d-md-none img-fluid" src="../icons/mapaCuba-sm.png" />
+        <div className="p-relative a" >
+          <img className="d-md-none img-fluid a" src="../icons/mapaCuba-sm.png" />
           <img
-            className="d-none d-md-block img-fluid mx-auto max-w"
+            className="d-none d-md-block img-fluid mx-auto "
             src="../icons/mapaCuba-lg.png"
           />
           {

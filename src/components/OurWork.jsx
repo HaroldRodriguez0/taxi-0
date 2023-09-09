@@ -17,45 +17,45 @@ export const OurWork = () => {
             />
             <h4 className="title-color">Varadero - La Habana</h4>
             <div className="ourWork-body">
-              <li>{language ? "" : "Salidas entre 8-AM y 9-AM"}</li>
+              <li>{language ? "Departures between 8-AM and 9-AM" : "Salidas entre 8-AM y 9-AM"}</li>
               <li>
                 {language
-                  ? ""
+                  ? "2 hours and approximately 20 minutes of travel"
                   : "2 horas con 20 minutos aproximadamente de viaje"}
               </li>
               <li>
-                {language ? "" : "Una parada en el mirador de Bacunayagua"}
+                {language ? "A stop at the Bacunayagua viewpoint" : "Una parada en el mirador de Bacunayagua"}
               </li>
-              <li>{language ? "" : "Lugares de interés"}</li>
+              <li>{language ? "Places of interest" : "Lugares de interés"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "El cristo"}</li>
+                <li>{language ? "The Christ" : "El cristo"}</li>
                 <li>
                   {language
-                    ? ""
+                    ? "October Crisis Missile Exhibition"
                     : "Exposición de misiles de la crisis de octubre"}
                 </li>
                 <li>
                   {language
-                    ? ""
+                    ? "San Carlos de la Cabaña Fortress, El Morro"
                     : "Fortaleza San Carlos de la Cabaña, el Morro"}
                 </li>
-                <li>{language ? "" : "Paseo por el malecón"}</li>
-                <li>{language ? "" : "Plaza d la Revolución"}</li>
-                <li>{language ? "" : "Capitolio"}</li>
-                <li>{language ? "" : "Parque central"}</li>
-                <li>{language ? "" : "Bar Floridita"}</li>
-                <li>{language ? "" : "Paseo del Prado"}</li>
+                <li>{language ? "Walk along the boardwalk" : "Paseo por el malecón"}</li>
+                <li>{language ? "Revolution Square" : "Plaza de la Revolución"}</li>
+                <li>{language ? "Capitol" : "Capitolio"}</li>
+                <li>{language ? "Central Park" : "Parque central"}</li>
+                <li>{language ? "Bar Floridita" : "Bar Floridita"}</li>
+                <li>{language ? "Paseo del Prado" : "Paseo del Prado"}</li>
               </ul>
-              <li>{language ? "" : "La Habana vieja y sus plazas"}</li>
+              <li>{language ? "Old Havana and its squares" : "La Habana vieja y sus plazas"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Plaza de armas"}</li>
-                <li>{language ? "" : "Plaza de la catedralde octubre"}</li>
-                <li>{language ? "" : "Plaza san francisco de asis"}</li>
-                <li>{language ? "" : "Plaza vieja"}</li>
+                <li>{language ? "Place of arms" : "Plaza de armas"}</li>
+                <li>{language ? "October Cathedral Square" : "Plaza de la catedralde octubre"}</li>
+                <li>{language ? "San Francisco de Asis Square" : "Plaza san francisco de Asis"}</li>
+                <li>{language ? "Old Square" : "Plaza vieja"}</li>
               </ul>
               <li>
                 {language
-                  ? ""
+                  ? "Leaving Havana when the program ends between 3-PM and 4-PM."
                   : "Saliendo de la Habana cuando termine el programa entre 3-PM y 4-PM."}
               </li>
             </div>
@@ -109,13 +109,13 @@ export const OurWork = () => {
             />
             <h4 className="title-color">Varadero - Matanzas</h4>
             <div className="ourWork-body">
-              <li>{language ? "" : "Lugares de interés"}</li>
+              <li>{language ? "Places of interest" : "Lugares de interés"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Playa el coral"}</li>
-                <li>{language ? "" : "Cueva saturno"}</li>
-                <li>{language ? "" : "Centro de la ciudad"}</li>
-                <li>{language ? "" : "Ermita de monserrate"}</li>
-                <li>{language ? "" : "Museo farmacéutico"}</li>
+                <li>{language ? "Coral Beach" : "Playa el coral"}</li>
+                <li>{language ? "Saturn Cave" : "Cueva saturno"}</li>
+                <li>{language ? "City center" : "Centro de la ciudad"}</li>
+                <li>{language ? "Hermitage of Monserrate" : "Ermita de Monserrate"}</li>
+                <li>{language ? "Pharmaceutical museum" : "Museo farmacéutico"}</li>
               </ul>
             </div>
           </div>
@@ -168,13 +168,13 @@ export const OurWork = () => {
             />
             <h4 className="title-color">Varadero - Zapata</h4>
             <div className="ourWork-body">
-              <li>{language ? "" : "Lugares de interés"}</li>
+              <li>{language ? "Places of interest" : "Lugares de interés"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Finca fiesta campesina"}</li>
-                <li>{language ? "" : "Criadero de cocodrilo"}</li>
-                <li>{language ? "" : "Playa larga"}</li>
-                <li>{language ? "" : "Cueva de los peces"}</li>
-                <li>{language ? "" : "Casa del colibrí"}</li>
+                <li>{language ? "Farm party peasant" : "Finca fiesta campesina"}</li>
+                <li>{language ? "Crocodile farm" : "Criadero de cocodrilo"}</li>
+                <li>{language ? "Long beach" : "Playa larga"}</li>
+                <li>{language ? "Fish Cave" : "Cueva de los peces"}</li>
+                <li>{language ? "Hummingbird House" : "Casa del colibrí"}</li>
               </ul>
             </div>
           </div>
@@ -220,14 +220,14 @@ export const OurWork = () => {
             />
             <h4 className="title-color">Varadero - Viñales</h4>
             <div className="ourWork-body">
-              <li>{language ? "" : "Lugares de interés"}</li>
+              <li>{language ? "Places of interest" : "Lugares de interés"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Mirador los jazmines"}</li>
-                <li>{language ? "" : "Mural de la prehistoria"}</li>
-                <li>{language ? "" : "Cueva del indio"}</li>
+                <li>{language ? "Mirador los jazmines" : "Mirador los jazmines"}</li>
+                <li>{language ? "Mural of prehistory" : "Mural de la prehistoria"}</li>
+                <li>{language ? "Indian Cave" : "Cueva del indio"}</li>
                 <li>
                   {language
-                    ? ""
+                    ? "Peasant's house where they see how he twists tobacco"
                     : "Casa de campesino donde ven como tuerce el tabaco"}
                 </li>
               </ul>
@@ -268,24 +268,24 @@ export const OurWork = () => {
             />
             <h4 className="title-color">Varadero - 3 ciudades</h4>
             <div className="ourWork-body">
-              <li>{language ? "" : "Santa Clara"}</li>
+              <li>{language ? "Santa Clara" : "Santa Clara"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Mausoleo del Che"}</li>
-                <li>{language ? "" : "Parke Vidal"}</li>
-                <li>{language ? "" : "Monumento al tren blindado"}</li>
+                <li>{language ? "Che's Mausoleum" : "Mausoleo del Che"}</li>
+                <li>{language ? "Parke Vidal" : "Parke Vidal"}</li>
+                <li>{language ? "Monument to the armored train" : "Monumento al tren blindado"}</li>
               </ul>
-              <li>{language ? "" : "Trinidad"}</li>
+              <li>{language ? "Trinidad" : "Trinidad"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Torre de Manaca Isnaga"}</li>
-                <li>{language ? "" : "Valle d los ingenios"}</li>
-                <li>{language ? "" : "Bar cancha chara"}</li>
-                <li>{language ? "" : "Paseo por la ciudad"}</li>
+                <li>{language ? "Manaca Isnaga Tower" : "Torre de Manaca Isnaga"}</li>
+                <li>{language ? "Valley of the sugar mills" : "Valle d los ingenios"}</li>
+                <li>{language ? "Chara court bar" : "Bar cancha chara"}</li>
+                <li>{language ? "Walk through the city" : "Paseo por la ciudad"}</li>
               </ul>
-              <li>{language ? "" : "Cienfuegos"}</li>
+              <li>{language ? "Cienfuegos" : "Cienfuegos"}</li>
               <ul type="none" className="ourWork-ul ps-2 m-0">
-                <li>{language ? "" : "Punta gorda"}</li>
-                <li>{language ? "" : "Estatua de Beni More"}</li>
-                <li>{language ? "" : "Parque Marti"}</li>
+                <li>{language ? "Fat tip" : "Punta gorda"}</li>
+                <li>{language ? "Statue of Beni More" : "Estatua de Beni More"}</li>
+                <li>{language ? "Marti Park" : "Parque Marti"}</li>
               </ul>
             </div>
           </div>
@@ -309,13 +309,6 @@ export const OurWork = () => {
                 <img
                   className="img-fluid ourWork-img"
                   src="../ciudad2.jpg"
-                  alt="ciudad"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="img-fluid ourWork-img"
-                  src="../ciudad3.jpg"
                   alt="ciudad"
                 />
               </Carousel.Item>

@@ -29,12 +29,12 @@ export const OurCars = () => {
           {language ? "Algun titulo apropiado" : "Algun titulo apropiado"}
         </h5>
         <ul className="ul-fs">
-          <li>{language ? "" : "Fixed price"}</li>
-          <li>{language ? "" : "English-speaking driver"}</li>
-          <li>{language ? "" : "Automated flight and train tracking"}</li>
-          <li>{language ? "" : "45 minutes waiting time after landing"}</li>
-          <li>{language ? "" : "Pickup with name sign in arrivals hall"}</li>
-          <li>{language ? "" : "Children seats available on request"}</li>
+          <li>{language ? "Fixed price" : 'Precio fijo'}</li>
+          <li>{language ? "English-speaking driver" : 'Conductor de habla inglesa'}</li>
+          <li>{language ? "Automated flight and train tracking" : 'Seguimiento automatizado de vuelos y trenes'}</li>
+          <li>{language ? "45 minutes waiting time after landing" : '45 minutos de espera después del aterrizaje.'}</li>
+          <li>{language ? "Pickup with name sign in arrivals hall" : 'Recogida con cartel con el nombre en la sala de llegadas.'}</li>
+          <li>{language ? "Children seats available on request" : 'Asientos para niños disponibles bajo petición.'}</li>
         </ul>
       </div>
       <div className="col-9 col-md-6 py-4 border max-w-ourCars">
@@ -51,12 +51,12 @@ export const OurCars = () => {
           {language ? "Algun titulo apropiado" : "Algun titulo apropiado"}
         </h5>
         <ul className="ul-fs">
-          <li>{language ? "" : "Fixed price"}</li>
-          <li>{language ? "" : "English-speaking driver"}</li>
-          <li>{language ? "" : "Automated flight and train tracking"}</li>
-          <li>{language ? "" : "45 minutes waiting time after landing"}</li>
-          <li>{language ? "" : "Pickup with name sign in arrivals hall"}</li>
-          <li>{language ? "" : "Children seats available on request"}</li>
+          <li>{language ? "Fixed price" : 'Precio fijo'}</li>
+          <li>{language ? "English-speaking driver" : 'Conductor de habla inglesa'}</li>
+          <li>{language ? "Automated flight and train tracking" : 'Seguimiento automatizado de vuelos y trenes'}</li>
+          <li>{language ? "45 minutes waiting time after landing" : '45 minutos de espera después del aterrizaje.'}</li>
+          <li>{language ? "Pickup with name sign in arrivals hall" : 'Recogida con cartel con el nombre en la sala de llegadas.'}</li>
+          <li>{language ? "Children seats available on request" : 'Asientos para niños disponibles bajo petición.'}</li>
         </ul>
       </div>
     </section>

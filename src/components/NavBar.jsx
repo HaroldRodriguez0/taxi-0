@@ -56,7 +56,7 @@ export const NavBar = () => {
             <Nav className="justify-content-end flex-grow-1 fs-4">
               <NavLink onClick={() => scrollRef(refService) } >{language ?'Service' :'Servicios'}</NavLink>
               <NavLink onClick={() => scrollRef(refOurCar) } >{language ?'Our Cars' :'Vehículos'}</NavLink>
-              <NavLink onClick={() => scrollRef(refSitie) } >{language ?'Sitie' :'Sitios'}</NavLink>
+              <NavLink onClick={() => scrollRef(refSitie) } >{language ?'Sities' :'Sitios'}</NavLink>
               <NavLink onClick={() => scrollRef(refContact) } >{language ?'Contact' :'Contacto'}</NavLink>
               <a onClick={() => setLanguage( !language )} className='icon-lenguaje' >
                 <img className='img-fluid' src={language ?'../icons/estados-unidos.png' :'../icons/espana.png'} alt="" />

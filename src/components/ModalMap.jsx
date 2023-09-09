@@ -37,25 +37,25 @@ export const ModalMAp = ({ show, handleClose, sitie }) => {
   const img1 = (sitie) => {
     switch (sitie) {
       case 0:
-        return "../vinales.jpg";
+        return "../vinales2.jpg";
       case 1:
-        return "../terrazas.jpg";
+        return "../vinales1.jpg";
       case 2:
-        return "../soroa.JPG";
+        return "../soroa1.jpg";
       case 3:
-        return "../habana.png";
+        return "../habana0.jpg";
       case 4:
-        return "../matanzas.jpg";
+        return "../matanzas1.jpg";
       case 5:
         return "../Zienaga.jpg";
       case 6:
-        return "../varadero.jpg";
+        return "../matanzas3.jpg";
       case 7:
-        return "../cienfuegos.jpg";
+        return "../ciudad4.jpg";
       case 8:
-        return "../trinidad.jpg";
+        return "../ciudad1.jpg";
       case 9:
-        return "../santaClara.jpg";
+        return "../ciudad2.jpg";
       default:
         break;
     }
@@ -64,25 +64,25 @@ export const ModalMAp = ({ show, handleClose, sitie }) => {
   const titleBody = (sitie) => {
     switch (sitie) {
       case 0:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 1:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 2:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 3:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 4:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 5:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 6:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 7:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 8:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       case 9:
-        return language ? "" : "titulo algo asi quiero poner";
+        return language ? "titulo algo asi quiero poner" : "titulo algo asi quiero poner";
       default:
         break;
     }
@@ -92,53 +92,53 @@ export const ModalMAp = ({ show, handleClose, sitie }) => {
     switch (sitie) {
       case 0:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 1:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 2:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 3:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       default:
       case 4:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 5:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 6:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 7:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 8:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
       case 9:
         return language
-          ? ""
+          ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!"
           : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis deleniti, eos eius mollitia illo unde!";
     }
   };
 
   return (
     <section>
-      <Modal centered show={show} onHide={handleClose}>
+      <Modal centered show={show} onHide={handleClose} className='modal-map-w'>
         <Modal.Header closeButton>
-          <Modal.Title className="display-5 fs-w">
+          <Modal.Title className="fs-2 fs-w">
             <img
               className="modalIcon"
               src="../icons/citie-icon.png"

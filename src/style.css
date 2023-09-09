@@ -191,8 +191,8 @@ a{
 .modalIcon{
   border-radius: 1rem;
   background-color: var(--first-color-white);
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin-right: 1rem;
 }
 
@@ -219,7 +219,7 @@ a{
 }
 
 .img-fixe{
-  background-image: url('../trasparente-sm.jpg');
+  background-image: url('../soroa.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -454,6 +454,10 @@ a{
 
 @media (min-width: 992px) {
 
+  .modal-map-w .modal-dialog{
+    max-width: 55%;
+  }
+
   .imgOurCars{
     max-width: 500px;
   }
@@ -467,7 +471,7 @@ a{
   }
 
   .ourWork-img{
-    min-width: 500px ;
+    min-height: 500px ;
   }
 
   .ourWork-img-habana{
@@ -518,6 +522,19 @@ a{
 
 
 @media (min-width: 1200px) { 
+
+  .modal-map-w .modal-dialog{
+    max-width: 50%;
+  }
+
+  .a{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .max-w{
+    max-width: 1110 !important;
+  }
 
   .ourWork-body{
     font-size: 1rem;

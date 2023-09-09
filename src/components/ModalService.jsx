@@ -41,13 +41,13 @@ export const ModalService = ({ show, handleClose, service }) => {
   const titleBody = (service) => {
     switch (service) {
       case 1:  
-        return language ? "Pickup" : "A tu disposición";
+        return language ? "At your disposal" : "A tu disposición";
       case 2:
-        return language ? "Pickup" : "Al sitio que desees";
+        return language ? "To the place you want" : "Al sitio que desees";
       case 3:
-        return language ? "Pickup" : "algun titulo";
+        return language ? "algun titulo" : "algun titulo";
       case 4:
-        return language ? "Pickup" : "Vive la experiencia";
+        return language ? "Live the experience" : "Vive la experiencia";
       default:
         break;
     }
@@ -57,20 +57,20 @@ export const ModalService = ({ show, handleClose, service }) => {
     switch (service) {
       case 1:  
         return language 
-          ? "Pickup"
+          ? "We pick up at the Varadero and Havana airports and take you to the destination you want."
           : "Realizamos recogidas en los aeropuertos de Varadero y La Habana y lo llevamos al destino que desee.";
       case 2:
         return language 
-          ? "Pickup"
-          : "Realizamos recogidas en los aeropuertos de Varadero y La Habana y lo llevamos al destino que desee.";
+          ? "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias."
+          : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias.";
       case 3:
         return language 
-          ? "Pickup"
-          : "Realizamos recogidas en los aeropuertos de Varadero y La Habana y lo llevamos al destino que desee.";
+          ? "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias."
+          : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias.";
       case 4:
         return language 
-          ? "Pickup"
-          : "Realizamos recogidas en los aeropuertos de Varadero y La Habana y lo llevamos al destino que desee.";
+          ? "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias."
+          : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate excepturi nemo deleniti ipsum magnam at expedita facere quo alias.";
       default:
         break;
     }
@@ -93,9 +93,7 @@ export const ModalService = ({ show, handleClose, service }) => {
         </Modal.Header>
         <Modal.Body>
           <div className="row">
-            <div className="col-lg-6 text-center">
-            </div>
-            <div className="col-lg-6">
+            <div className="">
               <h3 className="pt-2">{ titleBody( service )}</h3>
               <p>{ textBody( service )}</p>
             </div>
