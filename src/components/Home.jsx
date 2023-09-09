@@ -14,7 +14,7 @@ export const Home = () => {
         <div className="rounded text-center text-white position-h1 home-bg-article position">
           <h1 className="color-h1 m-0 p-3 fs-2 ">
             {language
-              ? "Get your dreams off the pillow and roll them"
+              ? "Get your dreams off the pillow and start them rolling"
               : "Saca tus sueños de la almohada y ponlos a rodar"}
           </h1>
           <p>
